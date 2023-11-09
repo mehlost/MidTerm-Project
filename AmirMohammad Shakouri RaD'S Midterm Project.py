@@ -175,23 +175,6 @@ def admin_panel():
    datelog_btn=tkinter.Button(win_panel,text="Time log of sold stuff",command=datelog)
    datelog_btn.pack()
    
-   # MESSAGE TO OSTAD:
-       
-       # Ostad azunja ke ye shop e farzie in
-       # va shoma tu class ta jayi az projecto ke kamel kardim 
-       # Harfi az optione BUY nazadin o tuye surat masaleye soale
-       # mianterm ham nagoftin ke option buy ro ezafe konim pas
-       # man hadsam ine ke mikhastin in shope farzio bezanim o
-       # bebinin ke mitunim chizayi ke goftino amali konim ta karbar
-       # masaln shoma bebine outcome esho ya na,
-       # option buy ro ezafe nkrdm
-       # ke omidvarm hadsam dorost bude bashe :(
-       # chon alan ke daram projecto tamum mikonam jomasto 
-       # rahi nist azatun beporsam
-       # va tahe project sare ezafe kardane date yade buy oftdm ke age ezafe mikrdm
-       # bayad kheyli chizaro avaz mikrdm ke dg time eii ta saat 12 e shb nmunde
-       # ke mirim tu shanbe o ta qablesh byd projecto upload konm
-
 
 #-----------------------------------------------
    win_panel.mainloop()
@@ -286,23 +269,6 @@ def sold():
     
 def datelog():
     
-    # MESSAGE TO OSTAD:
-        
-        # Ostad azunja ke ye shop e farzie in
-        # va shoma tu class ta jayi az projecto ke kamel kardim 
-        # Harfi az optione BUY nazadin o tuye surat masaleye soale
-        # mianterm ham nagoftin ke option buy ro ezafe konim pas
-        # man hadsam ine ke mikhastin in shope farzio bezanim o
-        # bebinin ke mitunim chizayi ke goftino amali konim ta karbar
-        # masaln shoma bebine outcome esho ya na,
-        # option buy ro ezafe nkrdm
-        # ke omidvarm hadsam dorost bude bashe :(
-        # chon alan ke daram projecto tamum mikonam jomasto 
-        # rahi nist azatun beporsam
-        # va tahe project sare ezafe kardane date yade buy oftdm ke age ezafe mikrdm
-        # bayad kheyli chizaro avaz mikrdm ke dg time eii ta saat 12 e shb nmunde
-        # ke mirim tu shanbe o ta qablesh byd projecto upload konm
-        
     global datelog_lbl 
     global datelog_txt
     global enter_date
